@@ -10,12 +10,10 @@ function App() {
     fetch('http://adelb.univ-lyon1.fr/portal/RestApi/portal/projects/0/resourcesEventsPortal/resources;6161/startdate;12312023/enddate;12062025/level;=8/field;Nom;CODEZ_RESOURCE;OWNER;', {
       method: 'GET',
       headers: {
-        'Accept': 'application/json, text/plain, */*',
+        'Accept': 'application/json',
         'Authorization': 'Bearer eyJraWQiOiJsaXRsZWtpZHBsYXlzZm9vdGJhbGwiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJBZGVSZXN0QXBpIiwiYXVkIjoiQWRlSnNvbkFwaSIsImV4cCI6MTczNDUxMTQyOCwianRpIjoiVjBpWXlVckk3djhqWlMwaEJDYVZjUSIsImlhdCI6MTczNDUwOTYyOCwibmJmIjoxNzM0NTA5NTA4LCJzdWIiOiJldHVkaWFudCIsInJvbGUiOiJ1c2VyIiwiaWRlbnRpZmllciI6Ijg0ODIzOWY3NTQ3ZTgyZGQxOTliMmM5ODlmNTFhMjg1dzU5NjAyIn0.OhR78IC5hmpO9PBwHWqnRChSxqMzadG0yqFQXHnR5mqiJuttS1unq8rVL16GGR9XYdQ-BierghppUggyDhJ15uS9AOG4NK21VuJGF0k4K7KCaX3XUX4m3OC56eudOoYmXmmFkV5oO66EyqRnMywNOAqAmG-8bitSmxjOtN7elnzsNyDaX9eyxZ1SY6GkI2iUfqd7ckAQI3U1Qn6cMNqKm3GgzjHG9B3YUFFNIpEPNqFTiyItOInXEuDkToWDEDuTSUtoElPOhAFHUKsEx9E59k0dqpylyzAA_e4BBXDjwBznpF-MLGaNi6Lu2cyUIvKUv_EQTTE4dGsXi8SCqPZppA',
-        'ClientTimezone': 'Europe/Paris',
         'Cookie': 'JSESSIONID=D3B270EE769C208E37A497786EB7D191;; JSESSIONID=A012E90BE7338A768B50F3F792EEECF7',
-      },
-      credentials: 'include'
+      }
     })
   }, [])
 
