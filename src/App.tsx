@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    fetch('http://adelb.univ-lyon1.fr/portal/RestApi/portal/projects/0/resourcesEventsPortal/resources;6161/startdate;12312023/enddate;12062025/level;=8/field;Nom;CODEZ_RESOURCE;OWNER;', {
+    fetch('https://adelb.univ-lyon1.fr/portal/RestApi/portal/projects/0/resourcesEventsPortal/resources;6161/startdate;12312023/enddate;12062025/level;=8/field;Nom;CODEZ_RESOURCE;OWNER;', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
